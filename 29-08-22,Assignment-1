@@ -2,7 +2,8 @@
 #include <math.h>
 #include <string.h>
 #include <stdlib.h>
-int find_nth_term(int n, int a, int b, int c) {
+int main() 
+{
     
     int sum_n;
     if(n == 1)
@@ -23,4 +24,4 @@ int find_nth_term(int n, int a, int b, int c) {
     }
     return sum_n;
 }
-0|Add
+
